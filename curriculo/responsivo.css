@@ -1,0 +1,43 @@
+@media (min-width: 1025px) and (max-width: 1200px){
+    /*
+    #meu-curriculo{ 
+    box-shadow: 0px 0px 10px red;
+    }
+    */
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #meu-curriculo{
+        /*
+    box-shadow: 0px 0px 10px royalblue;
+    */
+        width: 700px;
+        height: 990px;
+        }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #meu-curriculo{
+        /*
+        box-shadow: 0px 0px 10px royalblue;
+        */
+        width: 445px;
+        height: 630px;
+        }
+    main{
+            height: 950px;
+        }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    #meu-curriculo{
+        /*
+        box-shadow: 0px 0px 10px pink;
+        */
+        width: 300px;
+        height: 422px;
+        }
+    main{
+        height: 750px;
+        }
+}    
