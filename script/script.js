@@ -122,6 +122,56 @@ function sairMouseItemProjeto(){
 
 
 
+let novoElementoP = document.createElement('p');
+let icone_tecnologia;
+
+// função dos hard-skills
+function entrarMouseHardSkills() {
+    this.style.backgroundColor = 'rgba(255, 255, 255, 0.219)';
+    this.style.boxShadow = '0px 0px 15px #3637E5';
+
+    let hard_skill = this;
+    let texto_id = hard_skill.id;
+
+    icone_tecnologia = this.children[0];
+
+    icone_tecnologia.style.width = '40px';
+    icone_tecnologia.style.height = '40px';
+    icone_tecnologia.style.margin = '0px';
+
+    novoElementoP.textContent = texto_id;
+
+    novoElementoP.style.color = 'white';
+    novoElementoP.style.fontSize = '11px';
+    novoElementoP.style.height = '11px';
+    novoElementoP.style.fontFamily = 'my font';
+    novoElementoP.style.fontWeight = 'bold'
+    novoElementoP.style.textAlign = 'center';
+    novoElementoP.style.display = 'flex';
+    novoElementoP.style.alignItems = 'center';
+    novoElementoP.style.justifyContent = 'center';
+    novoElementoP.style.margin = '0px';
+
+    this.appendChild(novoElementoP);
+
+    novoElementoP.addEventListener('mouseenter', function(event) {
+        event.stopPropagation(); // Impede que o evento chegue ao pai novamente
+    });
+}
+function sairMouseHardSkills(){
+
+    this.style.backgroundColor = 'rgba(255, 255, 255, 0.11)'
+    this.style.boxShadow = ''
+
+    this.removeChild(novoElementoP)
+
+    icone_tecnologia.style.margin = 'auto'
+    icone_tecnologia.style.width = '55px'
+    icone_tecnologia.style.height = '55px'
+}
+
+
+
 // ----- VARIÁVEIS -----
 // body
 let corpo = document.getElementById('corpo')
@@ -164,6 +214,11 @@ const menu_principal = document.querySelector('.menu')
 // variaveis do projeto
 let item_projeto = document.querySelectorAll('.item-projeto')
 let p1 = document.getElementById('pjt1')
+
+// variaveis hard skills
+let item_hard = document.querySelectorAll('.item-hard')
+
+
 
 // ----- EVENTOS -----
 
@@ -211,3 +266,11 @@ let p1 = document.getElementById('pjt1')
    Array.from(item_projeto).forEach(function(evt){
     evt.addEventListener('mouseout', sairMouseItemProjeto)
    })
+    // hard-skills
+    Array.from(item_hard).forEach(function(evt){
+    evt.addEventListener('mouseenter', entrarMouseHardSkills)
+    })
+
+    Array.from(item_hard).forEach(function(evt){
+    evt.addEventListener('mouseleave', sairMouseHardSkills)
+    })

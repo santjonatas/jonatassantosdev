@@ -193,7 +193,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../img/eu\ lindo\ 1x1.jpg');
+    background-image: url('../img/img_perfil.jpg');
     background-size: contain;
     background-position: center;
     width: 320px;
@@ -242,7 +242,7 @@ body{
     color: white;
 }
 
-#front-end{
+#stack{
     background-image: linear-gradient(to left, #3ACBE5,#376EE6,#3637E5,#7037E6,#863D8E);
     display: inline-block;
     -webkit-background-clip: text;
@@ -604,6 +604,7 @@ body{
 .item-hard{
     display: flex;
     align-items: center;
+    flex-direction: column;
     /*
     margin: auto;
     */
