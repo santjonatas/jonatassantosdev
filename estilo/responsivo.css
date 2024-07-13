@@ -494,9 +494,12 @@
         margin: auto;
         width: 100%;
     }
+    #titulo-my-skills{
+        height: 100px;
+    }
     #skills{
         flex-direction: column;
-        gap: 1%;
+        /*gap: 1%;*/
         height: 950px;
         width: 300px;
     }
@@ -542,9 +545,7 @@
         height: 370px;
     }
     .item-hard{
-        /*
-        width: 250px;
-        */
+        
     }
     .item-soft{
         width: 250px;
