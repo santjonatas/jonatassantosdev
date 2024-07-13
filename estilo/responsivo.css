@@ -107,7 +107,7 @@
         margin: auto;
         font-size: 45px;
     }
-    #front-end{
+    #stack{
         margin: auto;
         font-size: 35px;
     }
@@ -264,7 +264,7 @@
         margin: auto;
         font-size: 45px;
     }
-    #front-end{
+    #stack{
         margin: auto;
         font-size: 35px;
     }
@@ -433,7 +433,7 @@
         margin: auto;
         font-size: 40px;
     }
-    #front-end{
+    #stack{
         margin: auto;
         font-size: 25px;
     }
@@ -497,7 +497,7 @@
     #skills{
         flex-direction: column;
         gap: 1%;
-        height: 800px;
+        height: 950px;
         width: 300px;
     }
     .soft-e-hard{
@@ -521,14 +521,25 @@
     .descricao-do-projeto{
         font-size: 19px;
     }
+    #aba-mais-inf{
+        height: 1050px;
+
+    }
+    .soft-e-hard{
+        height: 1000px;
+    }
     .border-aba-skills{
         width: 277px;
+        height: 377px;
+        
     }
     #hard-skills{
         width: 270px;
+        height: 370px;
     }
     #soft-skills{
         width: 270px;
+        height: 370px;
     }
     .item-hard{
         /*
