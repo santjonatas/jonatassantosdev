@@ -508,14 +508,13 @@
     }
     #skills{
         flex-direction: column;
-        /* gap: 1%; */
-        gap: 0px;
+        gap: 1%;
         height: 910px;
         width: 300px;
     }
     .soft-e-hard{
         width: 300px;
-        height: 1000px;
+        height: 455px;
     }
     #aba-projetos{
         height: 1950px;
