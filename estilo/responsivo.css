@@ -490,7 +490,8 @@
         height: 180px;
     }
     #aba-mais-inf{
-        height: 1050px;
+        /* height: 1050px; */
+        height: 1150px;
         margin: auto;
         width: 100%;
     }
