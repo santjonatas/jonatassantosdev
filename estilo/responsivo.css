@@ -495,12 +495,12 @@
         width: 100%;
     }
     #titulo-my-skills{
-        height: 100px;
+        height: 70px;
     }
     #skills{
         flex-direction: column;
-        /*gap: 1%;*/
-        height: 950px;
+        gap: 1%;
+        height: 910px;
         width: 300px;
     }
     .soft-e-hard{
