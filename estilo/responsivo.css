@@ -386,6 +386,9 @@
         justify-content: center;
         
     }
+    #informacoes{
+        margin: 0px;
+    }
     .menu{
         width: 100%;
     }
