@@ -508,7 +508,8 @@
     }
     #skills{
         flex-direction: column;
-        gap: 1%;
+        /* gap: 1%; */
+        gap: 0px;
         height: 910px;
         width: 300px;
     }
