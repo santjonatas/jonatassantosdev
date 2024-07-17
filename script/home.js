@@ -34,21 +34,21 @@
     function desclicarMouseBotaoAbaContato(){
         contact.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
     }
-    // function entrarMouseBotaoAbaCertificacoes(){
-    //     certificacoes.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
-    //     certificacoes.style.display = 'inline-block'
-    //     certificacoes.style.webkitBackgroundClip = 'text'
-    //     certificacoes.style.color = 'transparent'
-    // }
-    // function sairMouseBotaoAbaCertificacoes(){
-    //     certificacoes.style.color = 'white'
-    // }
-    // function clicarMouseBotaoAbaCertificacoes(){
-    //     certificacoes.style.backgroundImage = 'linear-gradient(to left, #22228E, #46228E)'
-    // }
-    // function desclicarMouseBotaoAbaCertificacoes(){
-    //     certificacoes.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
-    // }
+    function entrarMouseBotaoAbaCertificacoes(){
+        certificacoes.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
+        certificacoes.style.display = 'inline-block'
+        certificacoes.style.webkitBackgroundClip = 'text'
+        certificacoes.style.color = 'transparent'
+    }
+    function sairMouseBotaoAbaCertificacoes(){
+        certificacoes.style.color = 'white'
+    }
+    function clicarMouseBotaoAbaCertificacoes(){
+        certificacoes.style.backgroundImage = 'linear-gradient(to left, #22228E, #46228E)'
+    }
+    function desclicarMouseBotaoAbaCertificacoes(){
+        certificacoes.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
+    }
     
 
 
@@ -203,7 +203,7 @@ let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
     let aba_formacao = document.getElementById('aba-formacao')
     let contact = document.getElementById('contact')
     let aba_contact = document.getElementById('aba-contato')
-    //let certificacoes = document.getElementById('certificacoes')
+    let certificacoes = document.getElementById('certificacoes')
     let github =  document.getElementById('github')
     let linkedin = document.getElementById('linkedin')
     let instagram = document.getElementById('instagram')
@@ -250,10 +250,10 @@ let item_hard = document.querySelectorAll('.item-hard')
     contact.addEventListener('mousedown', clicarMouseBotaoAbaContato)
     contact.addEventListener('mouseup', desclicarMouseBotaoAbaContato)
     // certificações
-    // certificacoes.addEventListener('mouseenter', entrarMouseBotaoAbaCertificacoes)
-    // certificacoes.addEventListener('mouseout', sairMouseBotaoAbaCertificacoes)
-    // certificacoes.addEventListener('mousedown', clicarMouseBotaoAbaCertificacoes)
-    // certificacoes.addEventListener('mouseup', desclicarMouseBotaoAbaCertificacoes)
+    certificacoes.addEventListener('mouseenter', entrarMouseBotaoAbaCertificacoes)
+    certificacoes.addEventListener('mouseout', sairMouseBotaoAbaCertificacoes)
+    certificacoes.addEventListener('mousedown', clicarMouseBotaoAbaCertificacoes)
+    certificacoes.addEventListener('mouseup', desclicarMouseBotaoAbaCertificacoes)
 
     // github
     github.addEventListener('mouseenter', entrarMouseBotaoAbaGithub)

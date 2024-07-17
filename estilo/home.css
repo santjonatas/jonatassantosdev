@@ -73,9 +73,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 7px;
-    width: 290px;
+    width: 300px;
     height: 60px;
     margin-right: 20px;
+}
+
+#certificacoes{
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 #aba-tema{
